@@ -132,6 +132,28 @@ module.exports = class ImageGenerator{
   lick(){
     return this._action('lick');
   };
+  /**
+  * Grab an action image of type `punch`
+  * @returns {URL} An image url
+  */
+ punch(){
+  return this._action('punch');
+};
+
+/**
+  * Grab an action image of type `nom`
+  * @returns {URL} An image url
+  */
+ nom(){
+  return this._action('nom');
+};
+/**
+  * Grab an action image of type `wave`
+  * @returns {URL} An image url
+  */
+ wave(){
+  return this._action('wave');
+};
 
   /**
   * Grab an action image of type `midfing`
